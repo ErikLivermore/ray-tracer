@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E9DD612354E9FA00102EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD602354E9FA00102EA8 /* AppDelegate.m */; };
+		03E9DD642354E9FA00102EA8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD632354E9FA00102EA8 /* GameViewController.m */; };
+		03E9DD672354E9FA00102EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9DD652354E9FA00102EA8 /* Main.storyboard */; };
+		03E9DD6A2354E9FA00102EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9DD682354E9FA00102EA8 /* LaunchScreen.storyboard */; };
+		03E9DD6D2354E9FA00102EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD6C2354E9FA00102EA8 /* main.m */; };
+		03E9DD762354E9FA00102EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD752354E9FA00102EA8 /* AppDelegate.m */; };
+		03E9DD792354E9FA00102EA8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD782354E9FA00102EA8 /* GameViewController.m */; };
+		03E9DD7C2354E9FA00102EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9DD7A2354E9FA00102EA8 /* Main.storyboard */; };
+		03E9DD7F2354E9FA00102EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD7E2354E9FA00102EA8 /* main.m */; };
+		03E9DD802354E9FA00102EA8 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD542354E9F900102EA8 /* Renderer.m */; };
+		03E9DD812354E9FA00102EA8 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD542354E9F900102EA8 /* Renderer.m */; };
+		03E9DD822354E9FA00102EA8 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD562354E9F900102EA8 /* Shaders.metal */; };
+		03E9DD832354E9FA00102EA8 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 03E9DD562354E9F900102EA8 /* Shaders.metal */; };
+		03E9DD842354E9FA00102EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E9DD572354E9FA00102EA8 /* Assets.xcassets */; };
+		03E9DD852354E9FA00102EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E9DD572354E9FA00102EA8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E9DD532354E9F900102EA8 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		03E9DD542354E9F900102EA8 /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		03E9DD552354E9F900102EA8 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		03E9DD562354E9F900102EA8 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		03E9DD572354E9FA00102EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E9DD5C2354E9FA00102EA8 /* ray-tracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ray-tracer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E9DD5F2354E9FA00102EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E9DD602354E9FA00102EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E9DD622354E9FA00102EA8 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		03E9DD632354E9FA00102EA8 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		03E9DD662354E9FA00102EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E9DD692354E9FA00102EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E9DD6B2354E9FA00102EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E9DD6C2354E9FA00102EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E9DD722354E9FA00102EA8 /* ray-tracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ray-tracer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E9DD742354E9FA00102EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03E9DD752354E9FA00102EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03E9DD772354E9FA00102EA8 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		03E9DD782354E9FA00102EA8 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		03E9DD7B2354E9FA00102EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E9DD7D2354E9FA00102EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E9DD7E2354E9FA00102EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E9DD592354E9FA00102EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E9DD6F2354E9FA00102EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E9DD4D2354E9F900102EA8 = {
+			isa = PBXGroup;
+			children = (
+				03E9DD522354E9F900102EA8 /* ray-tracer Shared */,
+				03E9DD5E2354E9FA00102EA8 /* ray-tracer iOS */,
+				03E9DD732354E9FA00102EA8 /* ray-tracer macOS */,
+				03E9DD5D2354E9FA00102EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E9DD522354E9F900102EA8 /* ray-tracer Shared */ = {
+			isa = PBXGroup;
+			children = (
+				03E9DD532354E9F900102EA8 /* Renderer.h */,
+				03E9DD542354E9F900102EA8 /* Renderer.m */,
+				03E9DD552354E9F900102EA8 /* ShaderTypes.h */,
+				03E9DD562354E9F900102EA8 /* Shaders.metal */,
+				03E9DD572354E9FA00102EA8 /* Assets.xcassets */,
+			);
+			path = "ray-tracer Shared";
+			sourceTree = "<group>";
+		};
+		03E9DD5D2354E9FA00102EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E9DD5C2354E9FA00102EA8 /* ray-tracer.app */,
+				03E9DD722354E9FA00102EA8 /* ray-tracer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E9DD5E2354E9FA00102EA8 /* ray-tracer iOS */ = {
+			isa = PBXGroup;
+			children = (
+				03E9DD5F2354E9FA00102EA8 /* AppDelegate.h */,
+				03E9DD602354E9FA00102EA8 /* AppDelegate.m */,
+				03E9DD622354E9FA00102EA8 /* GameViewController.h */,
+				03E9DD632354E9FA00102EA8 /* GameViewController.m */,
+				03E9DD652354E9FA00102EA8 /* Main.storyboard */,
+				03E9DD682354E9FA00102EA8 /* LaunchScreen.storyboard */,
+				03E9DD6B2354E9FA00102EA8 /* Info.plist */,
+				03E9DD6C2354E9FA00102EA8 /* main.m */,
+			);
+			path = "ray-tracer iOS";
+			sourceTree = "<group>";
+		};
+		03E9DD732354E9FA00102EA8 /* ray-tracer macOS */ = {
+			isa = PBXGroup;
+			children = (
+				03E9DD742354E9FA00102EA8 /* AppDelegate.h */,
+				03E9DD752354E9FA00102EA8 /* AppDelegate.m */,
+				03E9DD772354E9FA00102EA8 /* GameViewController.h */,
+				03E9DD782354E9FA00102EA8 /* GameViewController.m */,
+				03E9DD7A2354E9FA00102EA8 /* Main.storyboard */,
+				03E9DD7D2354E9FA00102EA8 /* Info.plist */,
+				03E9DD7E2354E9FA00102EA8 /* main.m */,
+			);
+			path = "ray-tracer macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E9DD5B2354E9FA00102EA8 /* ray-tracer iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E9DD882354E9FA00102EA8 /* Build configuration list for PBXNativeTarget "ray-tracer iOS" */;
+			buildPhases = (
+				03E9DD582354E9FA00102EA8 /* Sources */,
+				03E9DD592354E9FA00102EA8 /* Frameworks */,
+				03E9DD5A2354E9FA00102EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ray-tracer iOS";
+			productName = "ray-tracer iOS";
+			productReference = 03E9DD5C2354E9FA00102EA8 /* ray-tracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03E9DD712354E9FA00102EA8 /* ray-tracer macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E9DD8B2354E9FA00102EA8 /* Build configuration list for PBXNativeTarget "ray-tracer macOS" */;
+			buildPhases = (
+				03E9DD6E2354E9FA00102EA8 /* Sources */,
+				03E9DD6F2354E9FA00102EA8 /* Frameworks */,
+				03E9DD702354E9FA00102EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ray-tracer macOS";
+			productName = "ray-tracer macOS";
+			productReference = 03E9DD722354E9FA00102EA8 /* ray-tracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E9DD4E2354E9F900102EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Livermore Games";
+				TargetAttributes = {
+					03E9DD5B2354E9FA00102EA8 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					03E9DD712354E9FA00102EA8 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 03E9DD512354E9F900102EA8 /* Build configuration list for PBXProject "ray-tracer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E9DD4D2354E9F900102EA8;
+			productRefGroup = 03E9DD5D2354E9FA00102EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E9DD5B2354E9FA00102EA8 /* ray-tracer iOS */,
+				03E9DD712354E9FA00102EA8 /* ray-tracer macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E9DD5A2354E9FA00102EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9DD672354E9FA00102EA8 /* Main.storyboard in Resources */,
+				03E9DD842354E9FA00102EA8 /* Assets.xcassets in Resources */,
+				03E9DD6A2354E9FA00102EA8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E9DD702354E9FA00102EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9DD852354E9FA00102EA8 /* Assets.xcassets in Resources */,
+				03E9DD7C2354E9FA00102EA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E9DD582354E9FA00102EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9DD802354E9FA00102EA8 /* Renderer.m in Sources */,
+				03E9DD642354E9FA00102EA8 /* GameViewController.m in Sources */,
+				03E9DD6D2354E9FA00102EA8 /* main.m in Sources */,
+				03E9DD612354E9FA00102EA8 /* AppDelegate.m in Sources */,
+				03E9DD822354E9FA00102EA8 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03E9DD6E2354E9FA00102EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9DD812354E9FA00102EA8 /* Renderer.m in Sources */,
+				03E9DD792354E9FA00102EA8 /* GameViewController.m in Sources */,
+				03E9DD7F2354E9FA00102EA8 /* main.m in Sources */,
+				03E9DD762354E9FA00102EA8 /* AppDelegate.m in Sources */,
+				03E9DD832354E9FA00102EA8 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E9DD652354E9FA00102EA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9DD662354E9FA00102EA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E9DD682354E9FA00102EA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9DD692354E9FA00102EA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03E9DD7A2354E9FA00102EA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9DD7B2354E9FA00102EA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E9DD862354E9FA00102EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		03E9DD872354E9FA00102EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		03E9DD892354E9FA00102EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXMJSGFBDG;
+				INFOPLIST_FILE = "ray-tracer iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.livermoregames.ray-tracer";
+				PRODUCT_NAME = "ray-tracer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03E9DD8A2354E9FA00102EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TXMJSGFBDG;
+				INFOPLIST_FILE = "ray-tracer iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.livermoregames.ray-tracer";
+				PRODUCT_NAME = "ray-tracer";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E9DD8C2354E9FA00102EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TXMJSGFBDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ray-tracer macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.livermoregames.ray-tracer";
+				PRODUCT_NAME = "ray-tracer";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03E9DD8D2354E9FA00102EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TXMJSGFBDG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ray-tracer macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.livermoregames.ray-tracer";
+				PRODUCT_NAME = "ray-tracer";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E9DD512354E9F900102EA8 /* Build configuration list for PBXProject "ray-tracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9DD862354E9FA00102EA8 /* Debug */,
+				03E9DD872354E9FA00102EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E9DD882354E9FA00102EA8 /* Build configuration list for PBXNativeTarget "ray-tracer iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9DD892354E9FA00102EA8 /* Debug */,
+				03E9DD8A2354E9FA00102EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E9DD8B2354E9FA00102EA8 /* Build configuration list for PBXNativeTarget "ray-tracer macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9DD8C2354E9FA00102EA8 /* Debug */,
+				03E9DD8D2354E9FA00102EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E9DD4E2354E9F900102EA8 /* Project object */;
+}
